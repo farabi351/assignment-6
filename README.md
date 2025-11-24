@@ -1,4 +1,4 @@
-#### 7) Create a README file to answer the following question-
+
 
 
 #### 1) What is the difference between var, let, and const?
@@ -33,6 +33,16 @@ Hoisting: Same as let.
 Re-declaration / Update: Cannot be re-declared or reassigned.
 
 Note: For objects/arrays, the reference cannot change, but the content can be modified.
+
+
+
+
+
+
+
+
+
+
 
 #### 2) What is the difference between map(), forEach(), and filter()? 
 
@@ -69,8 +79,7 @@ numbers.forEach(n => console.log(n * 2));
 ✔ Often used for logging, updating UI, pushing to another array manually
 
 
-
-3. filter()
+ filter()
 ✔ Returns a NEW array with elements that pass a condition
 
 filter() is used when you want to remove items or keep only certain items based on a condition.
@@ -92,6 +101,14 @@ console.log(even);  // [2, 4]
 
 
 
+
+
+
+
+
+
+
+
 #### 3) What are arrow functions in ES6?
 
 Regular function:
@@ -102,6 +119,12 @@ function greet(name) {
 
 Arrow function:
 const greet = name => `Hello ${name}`;
+
+
+
+
+
+
 
 
 
@@ -129,6 +152,11 @@ console.log(age);  // 25
 
 
 Matching is by key, not order.
+
+
+
+
+
 
 
 
